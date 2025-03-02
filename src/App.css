@@ -1,0 +1,191 @@
+/* Apply golden gradient to the body */
+body {
+  background: linear-gradient(135deg, #FFD700, #D4AF37) !important;
+  color: #333; /* Dark text for better readability */
+}
+
+/* Table and cell styling with golden gradient */
+.monthYrTbl {
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #FFD700, #D4AF37);
+  color: #333; /* Dark text for contrast */
+}
+
+.game_column {
+  background: linear-gradient(135deg, #FFD700, #D4AF37);
+  text-align: center;
+  border: 1px solid #333; /* Dark border for contrast */
+  font-weight: bold;
+}
+
+.game_column:nth-child(1),
+.game_column:nth-child(8),
+.game_column:nth-child(15) {
+  background: linear-gradient(135deg, #D4AF37, #B8860B); /* Darker golden gradient */
+}
+
+.game_column h6 {
+  text-transform: uppercase;
+  color: #8B0000; /* Dark red for contrast */
+  font-weight: bold;
+}
+
+.game_column:nth-child(1) h6,
+.game_column:nth-child(8) h6,
+.game_column:nth-child(15) h6 {
+  color: #FFF8DC; /* Light golden text for contrast */
+}
+
+.game_column:nth-child(1) span,
+.game_column:nth-child(8) span,
+.game_column:nth-child(15) span {
+  color: #FFF8DC; /* Light golden text for contrast */
+}
+
+.game_column:nth-child(1) .textColor,
+.game_column:nth-child(8) .textColor,
+.game_column:nth-child(15) .textColor {
+  color: #FFD700; /* Golden text for emphasis */
+  font-weight: bold;
+}
+
+/* Marquee styling */
+.marquee {
+  background: linear-gradient(135deg, #D4AF37, #B8860B) !important;
+  color: #FFF8DC; /* Light golden text for contrast */
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 5px !important;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 8px !important;
+  background: linear-gradient(135deg, #FFD700, #D4AF37);
+  border: 1px solid #333 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+}
+
+/* Toast message styling */
+.toast-message {
+  background: linear-gradient(135deg, #D4AF37, #B8860B) !important;
+  color: #FFF8DC !important;
+  border: 5px solid #8B0000; /* Dark red border */
+}
+
+.Toastify__toast-body,
+.toast-message button {
+  color: #FFF8DC !important;
+}
+
+.Toastify__progress {
+  background: linear-gradient(135deg, #FFD700, #D4AF37) !important;
+}
+
+/* Blinking text animation */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking-text {
+  animation: blink 1s infinite;
+}
+
+/* Text color animation */
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: transparent;
+  animation: effect 1s linear infinite;
+  text-transform: uppercase;
+}
+
+@keyframes effect {
+  0% {
+    background: linear-gradient(to left, #D4AF37, #B8860B);
+    -webkit-background-clip: text;
+  }
+  100% {
+    background: linear-gradient(to left, #FFD700, #D4AF37);
+    -webkit-background-clip: text;
+  }
+}
+
+/* Bottom section styling */
+.bottom-section {
+  background: linear-gradient(135deg, #FFD700, #D4AF37);
+  padding: 8px;
+  color: #333; /* Dark text for contrast */
+}
+
+.rights {
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+  color: #FFF8DC; /* Light golden text for contrast */
+}
+
+/* Advertisement section styling */
+.advertisementSection .ad-section {
+  width: 92%;
+  margin: 20px auto;
+  border: 3px solid #D4AF37;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  background: linear-gradient(135deg, #FFD700, #D4AF37);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.advertisementSection h3 {
+  color: #8B0000; /* Dark red for contrast */
+  font-size: 30px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.advertisementSection h4 {
+  color: #333; /* Dark text for contrast */
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.advertisementSection .ad-btn {
+  color: #FFF8DC; /* Light golden text for contrast */
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.advertisementSection .ad-btn:hover {
+  background: linear-gradient(135deg, #B8860B, #8B0000);
+  color: #FFF8DC; /* Light golden text for contrast */
+}
+
+/* Icon styling */
+.fa-whatsapp {
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  border-radius: 65%;
+}
+
+.fa-phone {
+  color: #25D366; /* WhatsApp green */
+  box-shadow: 0px 0px 7px #FFF8DC;
+  background: #FFF8DC; /* Light golden background */
+  padding: 0.1rem;
+  border-radius: 5px;
+}

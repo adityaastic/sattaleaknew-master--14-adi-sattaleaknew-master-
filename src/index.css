@@ -1,0 +1,390 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Times New Roman', Times, serif !important;
+} */
+/* Apply golden gradient to the body */
+body {
+  background: linear-gradient(135deg, #FFD700, #D4AF37) !important;
+  color: #333; /* Dark text for better readability */
+}
+
+/* Code block styling */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+  color: #FFF8DC; /* Light golden text for contrast */
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Navbar styling */
+.navbaar {
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+}
+
+.navbaar a {
+  text-decoration: none;
+  color: #FFF8DC; /* Light golden text for contrast */
+  cursor: pointer;
+}
+
+/* Header styling */
+.header {
+  background: linear-gradient(135deg, #FFD700, #D4AF37);
+}
+
+.header h1 {
+  font-size: 50px;
+  color: #333; /* Dark text for contrast */
+}
+
+/* Marquee styling */
+marquee {
+  font-size: 14px;
+  color: #FFF8DC; /* Light golden text for contrast */
+  border: 2px solid #D4AF37;
+  background: linear-gradient(135deg, #B8860B, #8B0000);
+  padding: 3px;
+}
+
+/* Leak result styling */
+.leak-result {
+  padding: 5px;
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+  color: #FFF8DC; /* Light golden text for contrast */
+  font-size: 14px;
+}
+
+/* SK record styling */
+.sk-record {
+  justify-content: center;
+  text-align: center;
+  border: 2px solid #D4AF37;
+  padding-bottom: 0 !important;
+  background: linear-gradient(135deg, #FFD700, #D4AF37);
+}
+
+/* Marquee styling */
+.marque {
+  border-radius: 56px;
+  font-size: 25px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+  color: #FFF8DC; /* Light golden text for contrast */
+}
+
+/* Table styling */
+/* Table styling with golden gradient and no white */
+.table-fullscreen {
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+  border: 3px solid #333; /* Dark border for contrast */
+  background: linear-gradient(135deg, #FFD700, #D4AF37); /* Golden gradient */
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0;
+  border: 3px solid #333; /* Dark border for contrast */
+  background: linear-gradient(135deg, #FFD700, #D4AF37); /* Golden gradient */
+  color: #333; /* Dark text for contrast */
+}
+
+.table th .header-content {
+  padding: 8px;
+  background: linear-gradient(135deg, #D4AF37, #B8860B); /* Darker golden gradient */
+  color: #FFF8DC; /* Light golden text for contrast */
+}
+
+.thead-light th {
+  background: linear-gradient(135deg, #D4AF37, #B8860B) !important; /* Darker golden gradient */
+  border: 2px solid #333 !important; /* Dark border for contrast */
+  color: #FFF8DC !important; /* Light golden text for contrast */
+}
+
+.table-section tbody td {
+  background: linear-gradient(135deg, #FFD700, #D4AF37) !important; /* Golden gradient */
+  border: 2px solid #333 !important; /* Dark border for contrast */
+  color: #333; /* Dark text for contrast */
+}
+
+/* Ant Design table styling */
+.ant-table-thead > tr > th {
+  background: linear-gradient(135deg, #D4AF37, #B8860B) !important; /* Darker golden gradient */
+  border-color: transparent !important;
+  color: #FFF8DC !important; /* Light golden text for contrast */
+  height: 30px;
+  line-height: 30px; /* Ensures text is vertically centered */
+}
+
+.ant-table-tbody > tr > td:first-child,
+.ant-table-thead > tr > th:first-child {
+  background: linear-gradient(135deg, #FFD700, #D4AF37); /* Golden gradient */
+  color: #8B0000; /* Dark red for contrast */
+  padding: 0rem 1rem !important;
+  text-align: center;
+}
+
+.ant-table-tbody > tr > td {
+  background: linear-gradient(135deg, #FFD700, #D4AF37); /* Golden gradient */
+  color: #8B0000; /* Dark red for contrast */
+  border: 0.3px solid #909090 !important;
+  height: 30px;
+  line-height: 30px; /* Ensures text is vertically centered */
+}
+
+.ant-table-cell {
+  border-right: 1px solid #333; /* Dark border for contrast */
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #333; /* Dark border for contrast */
+  height: 30px;
+  line-height: 30px; /* Ensures text is vertically centered */
+}
+
+.ant-table-cell {
+  padding: unset !important;
+  background: linear-gradient(135deg, #FFD700, #D4AF37); /* Golden gradient */
+}
+
+.ant-table-row:nth-child(odd) {
+  background: linear-gradient(135deg, #D4AF37, #B8860B); /* Darker golden gradient */
+}
+
+/* Links section styling */
+.col-12.link.section {
+  margin-top: 20px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.links .col {
+  flex: 1 0 21%; /* Adjust this value based on the number of columns */
+  margin: 5px 0;
+}
+
+.links .col a {
+  color: #FFF8DC !important; /* Light golden text for contrast */
+  text-decoration: none;
+}
+
+.ant-table-thead > tr > td,
+.ant-table-thead th {
+  background: linear-gradient(135deg, #D4AF37, #B8860B) !important; /* Darker golden gradient */
+  border-radius: 0px !important;
+  padding: 0rem 1rem !important;
+}
+
+.table tr {
+  padding: 0rem 1rem !important;
+}
+
+/* Footer select styling */
+#month-select,
+#year-select,
+#game-select,
+#go-button {
+  width: 100%;
+  padding: 4px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 3px solid #333; /* Dark border for contrast */
+  font-weight: bold;
+  background: linear-gradient(135deg, #D4AF37, #B8860B); /* Darker golden gradient */
+  color: #FFF8DC; /* Light golden text for contrast */
+}
+
+#go-button:hover {
+  background: linear-gradient(135deg, #B8860B, #8B0000); /* Darker gradient on hover */
+}
+
+/* Marquee styling */
+.marquee {
+  border-radius: 45px;
+  font-size: 25px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+  color: #FFF8DC; /* Light golden text for contrast */
+}
+
+/* SK King result section */
+.sk-king-result-section {
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+}
+
+/* Horizontal table styling */
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  background: linear-gradient(135deg, #FFD700, #D4AF37);
+}
+
+/* App1 styling */
+.App1 h1 {
+  text-align: center;
+  margin-bottom: 0px;
+  background: linear-gradient(135deg, #FFD700, #D4AF37);
+  color: #333; /* Dark text for contrast */
+}
+
+.game-records p {
+  font-size: 18px;
+  color: #FFF8DC; /* Light golden text for contrast */
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+  padding: 4px;
+}
+
+/* Banner styling */
+.banner {
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+  padding: 15px;
+  border-radius: 10px;
+  border: 4px solid #D4AF37;
+}
+
+.banner a {
+  color: #FFF8DC; /* Light golden text for contrast */
+  font-size: 16px;
+}
+
+.banner h3 {
+  color: #FFF8DC; /* Light golden text for contrast */
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.banner h2 {
+  color: #FFF8DC; /* Light golden text for contrast */
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.banner h1 {
+  color: #FFF8DC; /* Light golden text for contrast */
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.banner button {
+  color: #D4AF37;
+  background: linear-gradient(42deg, #3c3c3c, #000000);
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px 20px;
+}
+
+.banner button:hover {
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+  color: #FFF8DC; /* Light golden text for contrast */
+}
+
+/* Game result styling */
+.game-result {
+  background: linear-gradient(135deg, #FFD700, #D4AF37);
+  border: 1px solid #333; /* Dark border for contrast */
+}
+
+.game-result h3 {
+  font-size: 18px;
+  color: #8B0000; /* Dark red for contrast */
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.game-result span {
+  font-size: 15px;
+  color: #333; /* Dark text for contrast */
+}
+
+.game-result p {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #333; /* Dark text for contrast */
+}
+
+/* Label styling */
+.label {
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+  border: 4px solid #333; /* Dark border for contrast */
+  padding: 20px;
+  color: #FFF8DC; /* Light golden text for contrast */
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* Footer styling */
+#month-select,
+#year-select,
+#game-select,
+#go-button {
+  width: 100%;
+  padding: 4px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 3px solid #333; /* Dark border for contrast */
+  font-weight: bold;
+  background: linear-gradient(135deg, #D4AF37, #B8860B);
+  color: #FFF8DC; /* Light golden text for contrast */
+}
+
+#go-button:hover {
+  background: linear-gradient(135deg, #B8860B, #8B0000);
+}
+
+/* Refresh button styling */
+.refreshButton {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border: 4px solid #D4AF37;
+  background: linear-gradient(135deg, #FFD700, #D4AF37);
+  color: #333; /* Dark text for contrast */
+  height: auto;
+  padding: 8px;
+  font-style: italic;
+  border-radius: 10px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+/* Card styling */
+.card {
+  background: linear-gradient(135deg, #D4AF37, #B8860B) !important;
+}
+
+.card-body h1,
+.card-body h2 {
+  color: #8B0000 !important; /* Dark red for contrast */
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.card-body h3 {
+  color: #FFF8DC !important; /* Light golden text for contrast */
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card-body span {
+  color: #8B0000 !important; /* Dark red for contrast */
+  font-weight: 600;
+  font-size: 18px;
+}
